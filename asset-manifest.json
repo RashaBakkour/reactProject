@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/reactProject/static/css/main.ee693327.css",
+    "main.js": "/reactProject/static/js/main.2edf73c9.js",
+    "static/js/787.8b5e2247.chunk.js": "/reactProject/static/js/787.8b5e2247.chunk.js",
+    "static/media/more-services-3.jpg": "/reactProject/static/media/more-services-3.8e51e67dff71d6464727.jpg",
+    "static/media/more-services-4.jpg": "/reactProject/static/media/more-services-4.4b606597dd442025e487.jpg",
+    "static/media/counts-img.svg": "/reactProject/static/media/counts-img.4558949326fbbd853f2b130b81232940.svg",
+    "static/media/hero-img.png": "/reactProject/static/media/hero-img.53f1b5467e5095dc4126.png",
+    "static/media/more-services-1.jpg": "/reactProject/static/media/more-services-1.f862cd81e3d901e1642c.jpg",
+    "static/media/more-services-2.jpg": "/reactProject/static/media/more-services-2.abf1f636fa653c7fbbd2.jpg",
+    "index.html": "/reactProject/index.html",
+    "main.ee693327.css.map": "/reactProject/static/css/main.ee693327.css.map",
+    "main.2edf73c9.js.map": "/reactProject/static/js/main.2edf73c9.js.map",
+    "787.8b5e2247.chunk.js.map": "/reactProject/static/js/787.8b5e2247.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ee693327.css",
+    "static/js/main.2edf73c9.js"
+  ]
+}
