@@ -1,0 +1,67 @@
+.contact .contact-about h3 {
+    font-size: 28px;
+    margin: 0 0 10px 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #222222;
+}
+.contact .contact-about p {
+    font-size: 14px;
+    line-height: 24px;
+    font-family: "Raleway", sans-serif;
+    color: #888;
+}
+.contact .social-links {
+    padding-bottom: 20px;
+}
+.contact .social-links a {
+    font-size: 22px;
+    display: inline-block;
+    background: #fff;
+    color: #3498db;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+    border: 1px solid #3498db;
+}
+
+.contact .info {
+    color: #444444;
+}
+.contact .info i {
+    font-size: 36px;
+    color: #3498db;
+    float: left;
+    line-height: 1;
+}
+.contact .info p {
+    padding: 0 0 10px 42px;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.contact input, .contact textarea {
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+    padding: 10px 15px;
+}
+.contact button[type=submit] {
+    background: #3498db;
+    border: 0;
+    padding: 10px 24px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 50px;
+}
+[type=button]:not(:disabled), [type=reset]:not(:disabled),
+[type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+}

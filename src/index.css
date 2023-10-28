@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+  background-color: #fff;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+:root{
+  --main-color :#222222;
+  --link-color :#555555;
+  --text-color :#484848;
+  --btn-color :#3498db;
+}
+
+#header {
+  z-index: 997;
+  transition: all 0.5s;
+  padding: 1px 0;
+  background: #fff;
+  box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
+}
+#header .logo h1 {
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+section {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  max-width: 100%;
+  padding: 60px 0px;
+  display: block;
+  align-items: center;
+}
+
+a{
+  text-decoration: none !important;
+}
+
+span{
+  display: block;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+/*button{
+  text-align: center;
+  box-sizing: border-box;
+  height: 40px;
+  border-radius: 4px;
+}*/
+
+p{
+  line-height: 28px;
+}
+
+input{
+  box-sizing: border-box;
+  border: 1px solid #fff;
+  text-align: left;
+  padding: 5px 15px;
+  color: #333;
+  font-size: 16px;
+  font-family: 'Tajawal';
+}
+
+.section-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+.section-title h2{
+  font-family: "Raleway", sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+  color: #222222;
+}
+.section-title h2:before {
+  margin: 0 15px 10px 0;
+}
+.section-title h2:after {
+  margin: 0 0 10px 15px;
+}
+.section-title h2:before, .section-title h2:after {
+  content: "";
+  width: 50px;
+  height: 2px;
+  background: #3498db;
+  display: inline-block;
+}
