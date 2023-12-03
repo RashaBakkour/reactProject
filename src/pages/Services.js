@@ -1,5 +1,7 @@
 import React from 'react';
 import './Services.css';
+import Features from './Features';
+import MoreServices from './MoreServices';
 
 const Services = () => {
   return (
@@ -60,6 +62,8 @@ const Services = () => {
                     </div>
                 </div>
             </div>
+            <MoreServices/>
+            
         </section>
 
   );
